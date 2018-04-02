@@ -1,0 +1,73 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+*, 
+*:before, 
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before, 
+.clearfix:after {
+	content: ""; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Desktop First Method 
+   ========================================================================== */
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}
