@@ -73,12 +73,27 @@ body {
 }
 
 .navigation a:hover {
-	background-color: #7EBDC8;
+	background-color: #88BDCC;
 }
 
+#pull {
+	border-bottom: 1px solid #FFFFFF;
+	position: relative;
+	display: none;
+}
 
-
-
+#pull:after {
+	content: "";
+	display: block;
+	background: url(../images/nav-icon.png);
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
 
 
 
@@ -90,27 +105,26 @@ body {
    Desktop First Method 
    ========================================================================== */
 
-/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
-@media only screen and (max-width : 1200px) {
+/* Small Devices, Tablets - adaptive styles bofore 720px */
+@media only screen and (max-width : 720px) {
+	
+	.navigation ul {
+		display: none;
+	}
 
-}
+	.navigation ul li {
+		display: block;
+		border-right: none;
+		border-bottom: 1px solid #FFFFFF;
+		text-align: left;
+	}
 
-/* Medium Devices, Desktops - adaptive styles bofore 992px */
-@media only screen and (max-width : 992px) {
+	.navigation a {
+		display: block;
+	}
 
-}
-
-/* Small Devices, Tablets - adaptive styles bofore 768px */
-@media only screen and (max-width : 768px) {
-
-}
-
-/* Extra Small Devices, Phones - adaptive styles bofore 480px */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina - adaptive styles bofore 320px */
-@media only screen and (max-width : 320px) {
+	#pull {
+		display: block;
+	}
 
 }
